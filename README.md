@@ -9,6 +9,8 @@ OCR uses a series of machine learning models to turn a picture with text in it i
 * Character Classification: classify the character into one of the 28 classes (Arabic characters).
 
 
+![pipeline](pipeline.png)
+
 ## Dataset
 you can download the dataset from [here](https://drive.google.com/drive/folders/1Nbp9ZXLlWV3n8yRMwj2gjs_rE6qGZU01)
 
