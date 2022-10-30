@@ -1,0 +1,75 @@
+For each char
+Reading images for char ا
+Reading images for char ب
+Reading images for char ت
+Reading images for char ث
+Reading images for char ج
+Reading images for char ح
+Reading images for char خ
+Reading images for char د
+Reading images for char ذ
+Reading images for char ر
+Reading images for char ز
+ 95%|██████████████████████████████████▏ | 4000/4205 [00:00<00:00, 19681.43it/s]
+ 97%|███████████████████████████████████ | 4000/4106 [00:00<00:00, 19423.15it/s]
+ 94%|█████████████████████████████████▋  | 4000/4273 [00:00<00:00, 19780.30it/s]
+ 94%|█████████████████████████████████▉  | 4000/4249 [00:00<00:00, 20049.88it/s]
+ 90%|████████████████████████████████▎   | 4000/4453 [00:00<00:00, 19715.75it/s]
+ 90%|████████████████████████████████▎   | 4000/4459 [00:00<00:00, 18406.97it/s]
+ 90%|████████████████████████████████▍   | 4000/4445 [00:00<00:00, 19785.22it/s]
+ 90%|████████████████████████████████▍   | 4000/4435 [00:00<00:00, 18933.17it/s]
+ 92%|████████████████████████████████▉   | 4000/4366 [00:00<00:00, 19208.45it/s]
+ 89%|███████████████████████████████▉    | 4000/4511 [00:00<00:00, 19042.62it/s]
+ 34%|██████████████▊                            | 10/29 [00:02<00:04,  4.66it/s]
+  0%|                                                  | 0/4473 [00:00<?, ?it/s]
+Reading images for char س
+Reading images for char ش
+Reading images for char ص
+Reading images for char ض
+Reading images for char ط
+Reading images for char ظ
+Reading images for char ع
+Reading images for char غ
+ 93%|█████████████████████████████████▍  | 4000/4305 [00:00<00:00, 18281.83it/s]
+ 92%|█████████████████████████████████▏  | 4000/4343 [00:00<00:00, 19829.14it/s]
+ 90%|████████████████████████████████▌   | 4000/4429 [00:00<00:00, 18242.23it/s]
+ 90%|████████████████████████████████▎   | 4000/4450 [00:00<00:00, 19292.34it/s]
+ 94%|█████████████████████████████████▊  | 4000/4259 [00:00<00:00, 20020.78it/s]
+ 91%|████████████████████████████████▋   | 4000/4397 [00:00<00:00, 19633.04it/s]
+ 93%|█████████████████████████████████▎  | 4000/4322 [00:00<00:00, 18918.21it/s]
+ 91%|████████████████████████████████▊   | 4000/4381 [00:00<00:00, 20196.87it/s]
+ 66%|████████████████████████████▏              | 19/29 [00:04<00:02,  4.72it/s]
+ 44%|████████████████                    | 1973/4438 [00:00<00:00, 19728.89it/s]
+Reading images for char ق
+Reading images for char ك
+Reading images for char ل
+Reading images for char م
+Reading images for char ن
+Reading images for char ه
+Reading images for char و
+Reading images for char ي
+ 92%|████████████████████████████████▉   | 4000/4368 [00:00<00:00, 20188.90it/s]
+ 91%|████████████████████████████████▊   | 4000/4387 [00:00<00:00, 20219.87it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 20794.43it/s]
+ 90%|████████████████████████████████▌   | 4000/4426 [00:00<00:00, 18801.62it/s]
+ 87%|███████████████████████████████▍    | 4000/4588 [00:00<00:00, 19475.21it/s]
+ 88%|███████████████████████████████▌    | 4000/4555 [00:00<00:00, 19076.16it/s]
+ 93%|█████████████████████████████████▎  | 4000/4317 [00:00<00:00, 18613.80it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 19143.64it/s]
+ 93%|█████████████████████████████████▍  | 4000/4303 [00:00<00:00, 19670.19it/s]
+100%|███████████████████████████████████████████| 29/29 [00:06<00:00,  4.72it/s]
+Classifiers: 0it [00:00, ?it/s]/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+Classifiers: 0it [00:37, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 225, in <module>
+    train()
+  File "train.py", line 162, in train
+    y_probas = clf.predict_proba(X_test)
+AttributeError: 'LinearSVC' object has no attribute 'predict_proba'
+Traceback (most recent call last):
+  File "train.py", line 225, in <module>
+    train()
+  File "train.py", line 162, in train
+    y_probas = clf.predict_proba(X_test)
+AttributeError: 'LinearSVC' object has no attribute 'predict_proba'

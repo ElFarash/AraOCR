@@ -1,0 +1,117 @@
+For each char
+Reading images for char ا
+Reading images for char ب
+Reading images for char ت
+Reading images for char ث
+Reading images for char ج
+Reading images for char ح
+Reading images for char خ
+Reading images for char د
+Reading images for char ذ
+Reading images for char ر
+Reading images for char ز
+Reading images for char س
+ 95%|██████████████████████████████████▏ | 4000/4205 [00:00<00:00, 20396.91it/s]
+ 97%|███████████████████████████████████ | 4000/4106 [00:00<00:00, 19741.99it/s]
+ 94%|█████████████████████████████████▋  | 4000/4273 [00:00<00:00, 19674.16it/s]
+ 94%|█████████████████████████████████▉  | 4000/4249 [00:00<00:00, 20422.16it/s]
+ 90%|████████████████████████████████▎   | 4000/4453 [00:00<00:00, 16296.04it/s]
+ 90%|████████████████████████████████▎   | 4000/4459 [00:00<00:00, 19335.92it/s]
+ 90%|████████████████████████████████▍   | 4000/4445 [00:00<00:00, 20331.58it/s]
+ 90%|████████████████████████████████▍   | 4000/4435 [00:00<00:00, 19160.93it/s]
+ 92%|████████████████████████████████▉   | 4000/4366 [00:00<00:00, 20482.88it/s]
+ 89%|███████████████████████████████▉    | 4000/4511 [00:00<00:00, 20111.69it/s]
+ 89%|████████████████████████████████▏   | 4000/4473 [00:00<00:00, 21603.61it/s]
+ 38%|████████████████▎                          | 11/29 [00:02<00:03,  4.93it/s]
+  0%|                                                  | 0/4305 [00:00<?, ?it/s]
+Reading images for char ش
+Reading images for char ص
+Reading images for char ض
+Reading images for char ط
+Reading images for char ظ
+Reading images for char ع
+Reading images for char غ
+Reading images for char ف
+Reading images for char ق
+ 92%|█████████████████████████████████▏  | 4000/4343 [00:00<00:00, 20712.41it/s]
+ 90%|████████████████████████████████▌   | 4000/4429 [00:00<00:00, 18908.85it/s]
+ 90%|████████████████████████████████▎   | 4000/4450 [00:00<00:00, 20499.64it/s]
+ 94%|█████████████████████████████████▊  | 4000/4259 [00:00<00:00, 21005.39it/s]
+ 91%|████████████████████████████████▋   | 4000/4397 [00:00<00:00, 20799.92it/s]
+ 93%|█████████████████████████████████▎  | 4000/4322 [00:00<00:00, 19359.08it/s]
+ 91%|████████████████████████████████▊   | 4000/4381 [00:00<00:00, 20994.17it/s]
+ 90%|████████████████████████████████▍   | 4000/4438 [00:00<00:00, 20680.75it/s]
+ 92%|████████████████████████████████▉   | 4000/4368 [00:00<00:00, 20934.86it/s]
+ 72%|███████████████████████████████▏           | 21/29 [00:04<00:01,  5.00it/s]
+  0%|                                                  | 0/4387 [00:00<?, ?it/s]
+Reading images for char ل
+Reading images for char م
+Reading images for char ن
+Reading images for char ه
+Reading images for char و
+Reading images for char ي
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 21493.24it/s]
+ 90%|████████████████████████████████▌   | 4000/4426 [00:00<00:00, 19413.85it/s]
+ 87%|███████████████████████████████▍    | 4000/4588 [00:00<00:00, 20384.89it/s]
+ 88%|███████████████████████████████▌    | 4000/4555 [00:00<00:00, 19771.05it/s]
+ 93%|█████████████████████████████████▎  | 4000/4317 [00:00<00:00, 19192.08it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 20056.83it/s]
+ 93%|█████████████████████████████████▍  | 4000/4303 [00:00<00:00, 20669.56it/s]
+100%|███████████████████████████████████████████| 29/29 [00:05<00:00,  4.87it/s]
+Classifiers: 0it [00:00, ?it/s]/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+[34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting 2L_NN.
+[34m[1mwandb[39m[22m: [33mWARNING[39m 2-dimensional feature importances array passed to plot_feature_importances. 2-dimensional and higher feature importances arrays are not currently supported. These importances will not be plotted.
+[34m[1mwandb[39m[22m: Logged feature importances.
+[34m[1mwandb[39m[22m: Logged confusion matrix.
+[34m[1mwandb[39m[22m: Logged summary metrics.
+[34m[1mwandb[39m[22m: Logged class proportions.
+[34m[1mwandb[39m[22m: [33mWARNING[39m This function only supports binary classification at the moment and therefore expects labels to be binary. Skipping calibration curve.
+[34m[1mwandb[39m[22m: Logged calibration curve.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: Logged roc curve.
+0.9888793103448276
+[34m[1mwandb[39m[22m: Logged precision-recall curve.
+[34m[1mwandb[39m[22m: [33mWARNING[39m This function only supports binary classification at the moment and therefore expects labels to be binary. Skipping calibration curve.
+Classifiers: 1it [01:51, 111.24s/it]
+Traceback (most recent call last):
+  File "train.py", line 229, in <module>
+    train()
+  File "train.py", line 166, in train
+    y_probas = clf._predict_proba_lr(X_test)
+AttributeError: 'MLPClassifier' object has no attribute '_predict_proba_lr'
+Traceback (most recent call last):
+  File "train.py", line 229, in <module>
+    train()
+  File "train.py", line 166, in train
+    y_probas = clf._predict_proba_lr(X_test)
+AttributeError: 'MLPClassifier' object has no attribute '_predict_proba_lr'

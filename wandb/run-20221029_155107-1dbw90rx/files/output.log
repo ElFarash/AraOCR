@@ -1,0 +1,71 @@
+For each char
+Reading images for char ا
+Reading images for char ب
+Reading images for char ت
+Reading images for char ث
+Reading images for char ج
+Reading images for char ح
+Reading images for char خ
+Reading images for char د
+Reading images for char ذ
+Reading images for char ر
+Reading images for char ز
+ 95%|██████████████████████████████████▏ | 4000/4205 [00:00<00:00, 20329.54it/s]
+ 97%|███████████████████████████████████ | 4000/4106 [00:00<00:00, 19567.71it/s]
+ 94%|█████████████████████████████████▋  | 4000/4273 [00:00<00:00, 19783.05it/s]
+ 94%|█████████████████████████████████▉  | 4000/4249 [00:00<00:00, 20137.45it/s]
+ 90%|████████████████████████████████▎   | 4000/4453 [00:00<00:00, 20002.55it/s]
+ 90%|████████████████████████████████▎   | 4000/4459 [00:00<00:00, 18937.60it/s]
+ 90%|████████████████████████████████▍   | 4000/4445 [00:00<00:00, 19662.44it/s]
+ 90%|████████████████████████████████▍   | 4000/4435 [00:00<00:00, 19096.20it/s]
+ 92%|████████████████████████████████▉   | 4000/4366 [00:00<00:00, 20275.86it/s]
+ 89%|███████████████████████████████▉    | 4000/4511 [00:00<00:00, 19989.99it/s]
+ 34%|██████████████▊                            | 10/29 [00:02<00:03,  4.80it/s]
+ 48%|█████████████████▎                  | 2144/4473 [00:00<00:00, 21435.78it/s]
+Reading images for char س
+Reading images for char ش
+Reading images for char ص
+Reading images for char ض
+Reading images for char ط
+Reading images for char ظ
+Reading images for char ع
+Reading images for char غ
+Reading images for char ف
+ 93%|█████████████████████████████████▍  | 4000/4305 [00:00<00:00, 18707.87it/s]
+ 92%|█████████████████████████████████▏  | 4000/4343 [00:00<00:00, 20357.09it/s]
+ 90%|████████████████████████████████▌   | 4000/4429 [00:00<00:00, 18730.78it/s]
+ 90%|████████████████████████████████▎   | 4000/4450 [00:00<00:00, 20169.48it/s]
+ 94%|█████████████████████████████████▊  | 4000/4259 [00:00<00:00, 20791.13it/s]
+ 91%|████████████████████████████████▋   | 4000/4397 [00:00<00:00, 20788.81it/s]
+ 93%|█████████████████████████████████▎  | 4000/4322 [00:00<00:00, 19747.24it/s]
+ 91%|████████████████████████████████▊   | 4000/4381 [00:00<00:00, 20485.70it/s]
+ 90%|████████████████████████████████▍   | 4000/4438 [00:00<00:00, 20497.74it/s]
+ 69%|█████████████████████████████▋             | 20/29 [00:04<00:01,  4.93it/s]
+ 47%|█████████████████                   | 2072/4368 [00:00<00:00, 20712.02it/s]
+Reading images for char ك
+Reading images for char ل
+Reading images for char م
+Reading images for char ن
+Reading images for char ه
+Reading images for char و
+Reading images for char ي
+ 91%|████████████████████████████████▊   | 4000/4387 [00:00<00:00, 20625.15it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 21367.76it/s]
+ 90%|████████████████████████████████▌   | 4000/4426 [00:00<00:00, 19426.91it/s]
+ 87%|███████████████████████████████▍    | 4000/4588 [00:00<00:00, 20388.34it/s]
+ 88%|███████████████████████████████▌    | 4000/4555 [00:00<00:00, 19578.51it/s]
+ 93%|█████████████████████████████████▎  | 4000/4317 [00:00<00:00, 18976.65it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 19688.40it/s]
+ 93%|█████████████████████████████████▍  | 4000/4303 [00:00<00:00, 20511.67it/s]
+100%|███████████████████████████████████████████| 29/29 [00:05<00:00,  4.84it/s]
+Classifiers: 0it [00:00, ?it/s]/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+Classifiers: 0it [00:36, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 220, in <module>
+  File "train.py", line 160, in train
+TypeError: classifier() missing 2 required positional arguments: 'y_probas' and 'labels'
+Traceback (most recent call last):
+  File "train.py", line 220, in <module>
+  File "train.py", line 160, in train
+TypeError: classifier() missing 2 required positional arguments: 'y_probas' and 'labels'

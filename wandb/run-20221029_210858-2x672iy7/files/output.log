@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train.py", line 26, in <module>
+    classifiers = [ SklearnClassifier(kernel='linear',probability=True),
+TypeError: __init__() got an unexpected keyword argument 'kernel'
+Traceback (most recent call last):
+  File "train.py", line 26, in <module>
+    classifiers = [ SklearnClassifier(kernel='linear',probability=True),
+TypeError: __init__() got an unexpected keyword argument 'kernel'

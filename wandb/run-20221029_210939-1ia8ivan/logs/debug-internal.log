@@ -1,0 +1,155 @@
+2022-10-29 21:09:39,806 INFO    StreamThr :12642 [internal.py:wandb_internal():88] W&B internal server running at pid: 12642, started at: 2022-10-29 21:09:39.805413
+2022-10-29 21:09:39,808 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: status
+2022-10-29 21:09:39,810 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: status
+2022-10-29 21:09:39,812 DEBUG   SenderThread:12642 [sender.py:send():303] send: header
+2022-10-29 21:09:39,812 INFO    WriterThread:12642 [datastore.py:open_for_write():75] open: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/run-1ia8ivan.wandb
+2022-10-29 21:09:39,816 DEBUG   SenderThread:12642 [sender.py:send():303] send: run
+2022-10-29 21:09:41,763 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: check_version
+2022-10-29 21:09:41,766 INFO    SenderThread:12642 [dir_watcher.py:__init__():216] watching files in: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files
+2022-10-29 21:09:41,766 INFO    SenderThread:12642 [sender.py:_start_run_threads():928] run started: 1ia8ivan with start time 1667070579.802362
+2022-10-29 21:09:41,766 DEBUG   SenderThread:12642 [sender.py:send():303] send: summary
+2022-10-29 21:09:41,767 INFO    SenderThread:12642 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 21:09:41,767 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: check_version
+2022-10-29 21:09:42,154 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: run_start
+2022-10-29 21:09:42,768 INFO    Thread-13 :12642 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/wandb-summary.json
+2022-10-29 21:09:42,983 DEBUG   HandlerThread:12642 [meta.py:__init__():34] meta init
+2022-10-29 21:09:42,983 DEBUG   HandlerThread:12642 [meta.py:__init__():49] meta init done
+2022-10-29 21:09:42,983 DEBUG   HandlerThread:12642 [meta.py:probe():215] probe
+2022-10-29 21:09:42,989 DEBUG   HandlerThread:12642 [meta.py:_setup_git():205] setup git
+2022-10-29 21:09:43,002 DEBUG   HandlerThread:12642 [meta.py:_setup_git():212] setup git done
+2022-10-29 21:09:43,002 DEBUG   HandlerThread:12642 [meta.py:_save_pip():53] save pip
+2022-10-29 21:09:43,002 DEBUG   HandlerThread:12642 [meta.py:_save_pip():67] save pip done
+2022-10-29 21:09:43,002 DEBUG   HandlerThread:12642 [meta.py:probe():253] probe done
+2022-10-29 21:09:43,005 DEBUG   SenderThread:12642 [sender.py:send():303] send: files
+2022-10-29 21:09:43,005 INFO    SenderThread:12642 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-10-29 21:09:43,011 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 21:09:43,011 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 21:09:43,766 INFO    Thread-13 :12642 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/wandb-metadata.json
+2022-10-29 21:09:43,767 INFO    Thread-13 :12642 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/requirements.txt
+2022-10-29 21:09:43,789 DEBUG   SenderThread:12642 [sender.py:send():303] send: telemetry
+2022-10-29 21:09:44,406 INFO    Thread-17 :12642 [upload_job.py:push():143] Uploaded file /tmp/tmp7i65b4rxwandb/12kavtj2-wandb-metadata.json
+2022-10-29 21:09:44,767 INFO    Thread-13 :12642 [dir_watcher.py:_on_file_created():275] file/dir created: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/output.log
+2022-10-29 21:09:46,767 INFO    Thread-13 :12642 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/output.log
+2022-10-29 21:09:48,768 INFO    Thread-13 :12642 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/output.log
+2022-10-29 21:09:50,768 INFO    Thread-13 :12642 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/output.log
+2022-10-29 21:09:58,791 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 21:09:58,792 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 21:10:11,659 DEBUG   SenderThread:12642 [sender.py:send():303] send: stats
+2022-10-29 21:10:11,774 INFO    Thread-13 :12642 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/config.yaml
+2022-10-29 21:10:14,689 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-29 21:10:14,690 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: stop_status
+2022-10-29 21:10:22,287 DEBUG   SenderThread:12642 [sender.py:send():303] send: exit
+2022-10-29 21:10:22,287 INFO    SenderThread:12642 [sender.py:send_exit():442] handling exit code: 1
+2022-10-29 21:10:22,287 INFO    SenderThread:12642 [sender.py:send_exit():444] handling runtime: 40
+2022-10-29 21:10:22,287 INFO    SenderThread:12642 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 21:10:22,287 INFO    SenderThread:12642 [sender.py:send_exit():450] send defer
+2022-10-29 21:10:22,288 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:22,288 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-29 21:10:22,289 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:22,289 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-10-29 21:10:22,289 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 1
+2022-10-29 21:10:22,289 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:22,289 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-29 21:10:22,364 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:22,365 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-10-29 21:10:22,365 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 2
+2022-10-29 21:10:22,365 DEBUG   SenderThread:12642 [sender.py:send():303] send: stats
+2022-10-29 21:10:22,365 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:22,365 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-29 21:10:22,365 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:22,365 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-10-29 21:10:22,365 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 3
+2022-10-29 21:10:22,365 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:22,365 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-29 21:10:22,365 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:22,365 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-10-29 21:10:22,365 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 4
+2022-10-29 21:10:22,366 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:22,366 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-29 21:10:22,366 DEBUG   SenderThread:12642 [sender.py:send():303] send: summary
+2022-10-29 21:10:22,366 INFO    SenderThread:12642 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-10-29 21:10:22,366 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:22,366 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-10-29 21:10:22,366 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 5
+2022-10-29 21:10:22,366 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:22,366 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-29 21:10:22,366 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:22,366 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-10-29 21:10:22,366 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 6
+2022-10-29 21:10:22,366 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:22,367 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-29 21:10:22,367 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:22,367 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-10-29 21:10:22,777 INFO    Thread-13 :12642 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/wandb-summary.json
+2022-10-29 21:10:23,288 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 21:10:23,859 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 7
+2022-10-29 21:10:23,859 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 21:10:23,860 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:23,860 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-29 21:10:23,861 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:23,861 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-10-29 21:10:23,861 INFO    SenderThread:12642 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-29 21:10:24,288 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 21:10:24,779 INFO    SenderThread:12642 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/output.log
+2022-10-29 21:10:24,780 INFO    SenderThread:12642 [dir_watcher.py:finish():392] scan: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files
+2022-10-29 21:10:24,780 INFO    SenderThread:12642 [dir_watcher.py:finish():406] scan save: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/requirements.txt requirements.txt
+2022-10-29 21:10:24,780 INFO    SenderThread:12642 [dir_watcher.py:finish():406] scan save: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/output.log output.log
+2022-10-29 21:10:24,781 INFO    SenderThread:12642 [dir_watcher.py:finish():406] scan save: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/wandb-summary.json wandb-summary.json
+2022-10-29 21:10:24,781 INFO    SenderThread:12642 [dir_watcher.py:finish():406] scan save: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/config.yaml config.yaml
+2022-10-29 21:10:24,782 INFO    SenderThread:12642 [dir_watcher.py:finish():406] scan save: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/wandb-metadata.json wandb-metadata.json
+2022-10-29 21:10:24,782 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 8
+2022-10-29 21:10:24,782 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 21:10:24,786 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:24,786 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-29 21:10:24,786 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:24,786 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-10-29 21:10:24,786 INFO    SenderThread:12642 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-29 21:10:25,290 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 21:10:25,291 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 21:10:26,119 INFO    Thread-20 :12642 [upload_job.py:push():143] Uploaded file /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/wandb-summary.json
+2022-10-29 21:10:26,153 INFO    Thread-21 :12642 [upload_job.py:push():143] Uploaded file /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/config.yaml
+2022-10-29 21:10:26,243 INFO    Thread-18 :12642 [upload_job.py:push():143] Uploaded file /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/requirements.txt
+2022-10-29 21:10:26,291 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 21:10:26,292 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 21:10:26,311 INFO    Thread-19 :12642 [upload_job.py:push():143] Uploaded file /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/files/output.log
+2022-10-29 21:10:26,513 INFO    Thread-12 :12642 [sender.py:transition_state():463] send defer: 9
+2022-10-29 21:10:26,513 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:26,514 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-29 21:10:26,514 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:26,514 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-10-29 21:10:26,514 INFO    SenderThread:12642 [file_pusher.py:join():173] waiting for file pusher
+2022-10-29 21:10:26,514 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 10
+2022-10-29 21:10:26,515 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:26,515 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-29 21:10:26,515 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:26,515 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-10-29 21:10:26,894 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 11
+2022-10-29 21:10:26,895 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:26,895 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-29 21:10:26,896 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:26,896 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-10-29 21:10:26,896 INFO    SenderThread:12642 [sender.py:transition_state():463] send defer: 12
+2022-10-29 21:10:26,897 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: defer
+2022-10-29 21:10:26,897 INFO    HandlerThread:12642 [handler.py:handle_request_defer():161] handle defer: 12
+2022-10-29 21:10:26,898 DEBUG   SenderThread:12642 [sender.py:send():303] send: final
+2022-10-29 21:10:26,898 DEBUG   SenderThread:12642 [sender.py:send():303] send: footer
+2022-10-29 21:10:26,898 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: defer
+2022-10-29 21:10:26,898 INFO    SenderThread:12642 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-10-29 21:10:26,900 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 21:10:26,900 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 21:10:26,902 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-29 21:10:26,903 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: poll_exit
+2022-10-29 21:10:26,904 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: server_info
+2022-10-29 21:10:26,904 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-29 21:10:26,904 DEBUG   SenderThread:12642 [sender.py:send_request():317] send_request: server_info
+2022-10-29 21:10:26,906 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-29 21:10:28,647 INFO    MainThread:12642 [wandb_run.py:_footer_history_summary_info():3377] rendering history
+2022-10-29 21:10:28,648 INFO    MainThread:12642 [wandb_run.py:_footer_history_summary_info():3409] rendering summary
+2022-10-29 21:10:28,648 INFO    MainThread:12642 [wandb_run.py:_footer_sync_info():3333] logging synced files
+2022-10-29 21:10:28,649 DEBUG   HandlerThread:12642 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-29 21:10:28,649 INFO    HandlerThread:12642 [handler.py:finish():814] shutting down handler
+2022-10-29 21:10:28,898 INFO    WriterThread:12642 [datastore.py:close():279] close: /home/mohammad/Projects/AraOCR/wandb/run-20221029_210939-1ia8ivan/run-1ia8ivan.wandb
+2022-10-29 21:10:29,647 INFO    SenderThread:12642 [sender.py:finish():1331] shutting down sender
+2022-10-29 21:10:29,647 INFO    SenderThread:12642 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-29 21:10:29,647 INFO    SenderThread:12642 [file_pusher.py:join():173] waiting for file pusher
+2022-10-29 21:10:29,653 INFO    MainThread:12642 [internal.py:handle_exit():78] Internal process exited

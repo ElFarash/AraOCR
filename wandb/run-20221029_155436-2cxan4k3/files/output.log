@@ -1,0 +1,75 @@
+For each char
+Reading images for char ا
+Reading images for char ب
+Reading images for char ت
+Reading images for char ث
+Reading images for char ج
+Reading images for char ح
+Reading images for char خ
+Reading images for char د
+Reading images for char ذ
+Reading images for char ر
+ 95%|██████████████████████████████████▏ | 4000/4205 [00:00<00:00, 19968.74it/s]
+ 97%|███████████████████████████████████ | 4000/4106 [00:00<00:00, 19367.10it/s]
+ 94%|█████████████████████████████████▋  | 4000/4273 [00:00<00:00, 19721.45it/s]
+ 94%|█████████████████████████████████▉  | 4000/4249 [00:00<00:00, 20334.47it/s]
+ 90%|████████████████████████████████▎   | 4000/4453 [00:00<00:00, 20370.93it/s]
+ 90%|████████████████████████████████▎   | 4000/4459 [00:00<00:00, 19438.39it/s]
+ 90%|████████████████████████████████▍   | 4000/4445 [00:00<00:00, 20211.86it/s]
+ 90%|████████████████████████████████▍   | 4000/4435 [00:00<00:00, 19369.05it/s]
+ 92%|████████████████████████████████▉   | 4000/4366 [00:00<00:00, 20501.35it/s]
+ 31%|█████████████▋                              | 9/29 [00:01<00:04,  4.85it/s]
+ 89%|████████████████████████████████▏   | 4000/4473 [00:00<00:00, 21631.69it/s]
+ 93%|█████████████████████████████████▍  | 4000/4305 [00:00<00:00, 18917.25it/s]
+ 92%|█████████████████████████████████▏  | 4000/4343 [00:00<00:00, 20543.97it/s]
+ 90%|████████████████████████████████▌   | 4000/4429 [00:00<00:00, 18767.34it/s]
+ 90%|████████████████████████████████▎   | 4000/4450 [00:00<00:00, 20384.30it/s]
+ 94%|█████████████████████████████████▊  | 4000/4259 [00:00<00:00, 21094.05it/s]
+ 91%|████████████████████████████████▋   | 4000/4397 [00:00<00:00, 20779.93it/s]
+ 93%|█████████████████████████████████▎  | 4000/4322 [00:00<00:00, 20055.37it/s]
+ 91%|████████████████████████████████▊   | 4000/4381 [00:00<00:00, 20645.86it/s]
+ 66%|████████████████████████████▏              | 19/29 [00:03<00:02,  4.95it/s]
+ 46%|████████████████▋                   | 2060/4438 [00:00<00:00, 20591.82it/s]
+Reading images for char ز
+Reading images for char س
+Reading images for char ش
+Reading images for char ص
+Reading images for char ض
+Reading images for char ط
+Reading images for char ظ
+Reading images for char ع
+Reading images for char غ
+ 92%|████████████████████████████████▉   | 4000/4368 [00:00<00:00, 20692.94it/s]
+ 91%|████████████████████████████████▊   | 4000/4387 [00:00<00:00, 20383.26it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 21254.20it/s]
+ 90%|████████████████████████████████▌   | 4000/4426 [00:00<00:00, 19481.37it/s]
+ 87%|███████████████████████████████▍    | 4000/4588 [00:00<00:00, 20413.39it/s]
+ 88%|███████████████████████████████▌    | 4000/4555 [00:00<00:00, 19911.29it/s]
+ 93%|█████████████████████████████████▎  | 4000/4317 [00:00<00:00, 18918.74it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 19654.29it/s]
+ 93%|█████████████████████████████████▍  | 4000/4303 [00:00<00:00, 20407.38it/s]
+100%|███████████████████████████████████████████| 29/29 [00:05<00:00,  4.88it/s]
+Reading images for char ق
+Reading images for char ك
+Reading images for char ل
+Reading images for char م
+Reading images for char ن
+Reading images for char ه
+Reading images for char و
+Reading images for char ي
+Reading images for char لا
+Classifiers: 0it [00:00, ?it/s]/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+Classifiers: 0it [00:33, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 221, in <module>
+    train()
+  File "train.py", line 161, in train
+    wandb.sklearn.plot_classifier(clf, X_train, X_test, Y_train, Y_test,labels=chars, model_name='SVC', feature_names=None)
+TypeError: classifier() missing 2 required positional arguments: 'y_pred' and 'y_probas'
+Traceback (most recent call last):
+  File "train.py", line 221, in <module>
+    train()
+  File "train.py", line 161, in train
+    wandb.sklearn.plot_classifier(clf, X_train, X_test, Y_train, Y_test,labels=chars, model_name='SVC', feature_names=None)
+TypeError: classifier() missing 2 required positional arguments: 'y_pred' and 'y_probas'

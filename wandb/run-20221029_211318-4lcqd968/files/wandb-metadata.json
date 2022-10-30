@@ -1,0 +1,22 @@
+{
+    "os": "Linux-5.14.0-1054-oem-x86_64-with-glibc2.29",
+    "python": "3.8.10",
+    "heartbeatAt": "2022-10-29T19:13:21.678950",
+    "startedAt": "2022-10-29T19:13:18.209263",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/ElFarash/AraOCR.git",
+        "commit": "662ccc1416c4ecb2f031be8c29168ad536ef32b7"
+    },
+    "email": "mohammad.elfarash@gmail.com",
+    "root": "/home/mohammad/Projects/AraOCR",
+    "host": "mohammad",
+    "username": "mohammad",
+    "executable": "/usr/bin/python3"
+}

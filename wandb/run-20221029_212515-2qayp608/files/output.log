@@ -1,0 +1,102 @@
+For each char
+Reading images for char ا
+Reading images for char ب
+Reading images for char ت
+Reading images for char ث
+Reading images for char ج
+Reading images for char ح
+Reading images for char خ
+Reading images for char د
+Reading images for char ذ
+Reading images for char ر
+ 95%|██████████████████████████████████▏ | 4000/4205 [00:00<00:00, 19694.02it/s]
+ 97%|███████████████████████████████████ | 4000/4106 [00:00<00:00, 19020.34it/s]
+ 94%|█████████████████████████████████▋  | 4000/4273 [00:00<00:00, 19369.40it/s]
+ 94%|█████████████████████████████████▉  | 4000/4249 [00:00<00:00, 19712.28it/s]
+ 90%|████████████████████████████████▎   | 4000/4453 [00:00<00:00, 19397.26it/s]
+ 90%|████████████████████████████████▎   | 4000/4459 [00:00<00:00, 18719.85it/s]
+ 90%|████████████████████████████████▍   | 4000/4445 [00:00<00:00, 19755.47it/s]
+ 90%|████████████████████████████████▍   | 4000/4435 [00:00<00:00, 18717.61it/s]
+ 92%|████████████████████████████████▉   | 4000/4366 [00:00<00:00, 19832.54it/s]
+ 31%|█████████████▋                              | 9/29 [00:01<00:04,  4.71it/s]
+ 43%|███████████████▌                    | 1948/4511 [00:00<00:00, 19473.24it/s]
+Reading images for char ز
+Reading images for char س
+Reading images for char ش
+Reading images for char ص
+Reading images for char ض
+Reading images for char ط
+Reading images for char ظ
+Reading images for char ع
+Reading images for char غ
+ 89%|████████████████████████████████▏   | 4000/4473 [00:00<00:00, 20739.60it/s]
+ 93%|█████████████████████████████████▍  | 4000/4305 [00:00<00:00, 18391.05it/s]
+ 92%|█████████████████████████████████▏  | 4000/4343 [00:00<00:00, 20049.57it/s]
+ 90%|████████████████████████████████▌   | 4000/4429 [00:00<00:00, 18206.91it/s]
+ 90%|████████████████████████████████▎   | 4000/4450 [00:00<00:00, 19903.76it/s]
+ 94%|█████████████████████████████████▊  | 4000/4259 [00:00<00:00, 20443.07it/s]
+ 91%|████████████████████████████████▋   | 4000/4397 [00:00<00:00, 20318.53it/s]
+ 93%|█████████████████████████████████▎  | 4000/4322 [00:00<00:00, 18934.73it/s]
+ 91%|████████████████████████████████▊   | 4000/4381 [00:00<00:00, 20602.40it/s]
+ 66%|████████████████████████████▏              | 19/29 [00:04<00:02,  4.81it/s]
+  0%|                                                  | 0/4438 [00:00<?, ?it/s]
+Reading images for char ق
+Reading images for char ك
+Reading images for char ل
+Reading images for char م
+Reading images for char ن
+Reading images for char ه
+Reading images for char و
+Reading images for char ي
+ 92%|████████████████████████████████▉   | 4000/4368 [00:00<00:00, 20444.71it/s]
+ 91%|████████████████████████████████▊   | 4000/4387 [00:00<00:00, 20500.52it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 21043.75it/s]
+ 90%|████████████████████████████████▌   | 4000/4426 [00:00<00:00, 18911.19it/s]
+ 87%|███████████████████████████████▍    | 4000/4588 [00:00<00:00, 19984.75it/s]
+ 88%|███████████████████████████████▌    | 4000/4555 [00:00<00:00, 19323.78it/s]
+ 93%|█████████████████████████████████▎  | 4000/4317 [00:00<00:00, 18607.82it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 19519.22it/s]
+ 93%|█████████████████████████████████▍  | 4000/4303 [00:00<00:00, 20258.42it/s]
+100%|███████████████████████████████████████████| 29/29 [00:06<00:00,  4.77it/s]
+Classifiers: 0it [00:00, ?it/s][34m[1mwandb[39m[22m:
+[34m[1mwandb[39m[22m: Plotting 1L_NN.
+[34m[1mwandb[39m[22m: [33mWARNING[39m could not find any of attributes feature_importances_, feature_log_prob_, coef_ on classifier. Cannot plot feature importances.
+[34m[1mwandb[39m[22m: Logged feature importances.
+[34m[1mwandb[39m[22m: Logged confusion matrix.
+[34m[1mwandb[39m[22m: Logged summary metrics.
+[34m[1mwandb[39m[22m: Logged class proportions.
+[34m[1mwandb[39m[22m: [33mWARNING[39m This function only supports binary classification at the moment and therefore expects labels to be binary. Skipping calibration curve.
+[34m[1mwandb[39m[22m: Logged calibration curve.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb.plots.* functions are deprecated and will be removed in a future release. Please use wandb.plot.* instead.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: [33mWARNING[39m wandb uses only the first 10000 datapoints to create the plots.
+[34m[1mwandb[39m[22m: Logged roc curve.
+0.9958189655172414
+[34m[1mwandb[39m[22m: Logged precision-recall curve.
+[34m[1mwandb[39m[22m: [33mWARNING[39m This function only supports binary classification at the moment and therefore expects labels to be binary. Skipping calibration curve.
+Classifiers: 4it [01:33, 23.29s/it]

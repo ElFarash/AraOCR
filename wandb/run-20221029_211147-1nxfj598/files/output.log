@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "train.py", line 26, in <module>
+    classifiers = [ SklearnClassifier(LinearSVC()),
+NameError: name 'SklearnClassifier' is not defined
+Traceback (most recent call last):
+  File "train.py", line 26, in <module>
+    classifiers = [ SklearnClassifier(LinearSVC()),
+NameError: name 'SklearnClassifier' is not defined

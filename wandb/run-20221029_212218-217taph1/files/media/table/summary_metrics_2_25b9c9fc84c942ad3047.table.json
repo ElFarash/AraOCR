@@ -1,0 +1,1 @@
+{"columns": ["metric_name", "metric_value", "model_name"], "data": [["accuracy_score", 0.99, "LinearSVC"], ["precision", 0.99, "LinearSVC"], ["recall", 0.99, "LinearSVC"], ["f1_score", 0.99, "LinearSVC"]]}

@@ -15,6 +15,14 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
 import pickle
 
+from nltk.classify.scikitlearn import SklearnClassifier
+from sklearn.svm import LinearSVC
+
+
+import wandb
+wandb.init(project="GaussianNB")
+
+
 chars = ['ا', 'ب', 'ت', 'ث', 'ج', 'ح', 'خ', 'د', 'ذ', 'ر', 'ز', 'س', 'ش', 'ص', 'ض', 'ط', 'ظ', 'ع', 'غ', 'ف',
 'ق','ك', 'ل', 'م', 'ن', 'ه', 'و','ي','لا']
 train_ratio = 0.8
@@ -25,7 +33,7 @@ classifiers = [ svm.LinearSVC(),
                 GaussianNB()]
 
 names = ['LinearSVM', '1L_NN', '2L_NN', 'Gaussian_Naive_Bayes']
-skip = [0, 0, 0, 0]
+skip = [1, 1, 1, 0]
 
 width = 25
 height = 25
@@ -153,6 +161,14 @@ def train():
         if not skip[idx]:
 
             clf.fit(X_train, Y_train)
+            
+            y_pred = clf.predict(X_test)
+            #y_probas = clf._predict_proba_lr(X_test) # uncomment this in case of svm
+            y_probas = clf.predict_proba(X_test)
+
+            wandb.sklearn.plot_classifier(clf, X_train, X_test, Y_train, Y_test,y_pred, y_probas,labels=chars, model_name='GaussianNB', feature_names="test")
+            wandb.sklearn.plot_calibration_curve(clf, X_train, Y_train)
+
             score = clf.score(X_test, Y_test)
             scores.append(score)
             print(score)

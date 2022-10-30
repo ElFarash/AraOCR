@@ -1,0 +1,139 @@
+ 95%|██████████████████████████████████▏ | 4000/4205 [00:00<00:00, 20378.23it/s]
+ 97%|███████████████████████████████████ | 4000/4106 [00:00<00:00, 19743.66it/s]
+ 94%|█████████████████████████████████▋  | 4000/4273 [00:00<00:00, 19403.36it/s]
+ 94%|█████████████████████████████████▉  | 4000/4249 [00:00<00:00, 19361.60it/s]
+ 90%|████████████████████████████████▎   | 4000/4453 [00:00<00:00, 20062.54it/s]
+ 90%|████████████████████████████████▎   | 4000/4459 [00:00<00:00, 19154.15it/s]
+ 90%|████████████████████████████████▍   | 4000/4445 [00:00<00:00, 20129.79it/s]
+ 90%|████████████████████████████████▍   | 4000/4435 [00:00<00:00, 19133.38it/s]
+ 92%|████████████████████████████████▉   | 4000/4366 [00:00<00:00, 20370.07it/s]
+ 89%|███████████████████████████████▉    | 4000/4511 [00:00<00:00, 20166.89it/s]
+ 89%|████████████████████████████████▏   | 4000/4473 [00:00<00:00, 20931.51it/s]
+ 38%|████████████████▎                          | 11/29 [00:02<00:03,  4.90it/s]
+  0%|                                                  | 0/4305 [00:00<?, ?it/s]
+For each char
+Reading images for char ا
+Reading images for char ب
+Reading images for char ت
+Reading images for char ث
+Reading images for char ج
+Reading images for char ح
+Reading images for char خ
+Reading images for char د
+Reading images for char ذ
+Reading images for char ر
+Reading images for char ز
+ 92%|█████████████████████████████████▏  | 4000/4343 [00:00<00:00, 19069.40it/s]
+ 90%|████████████████████████████████▌   | 4000/4429 [00:00<00:00, 18165.75it/s]
+ 90%|████████████████████████████████▎   | 4000/4450 [00:00<00:00, 19727.74it/s]
+ 94%|█████████████████████████████████▊  | 4000/4259 [00:00<00:00, 20613.77it/s]
+ 91%|████████████████████████████████▋   | 4000/4397 [00:00<00:00, 19803.46it/s]
+ 93%|█████████████████████████████████▎  | 4000/4322 [00:00<00:00, 19342.18it/s]
+ 91%|████████████████████████████████▊   | 4000/4381 [00:00<00:00, 20586.07it/s]
+ 90%|████████████████████████████████▍   | 4000/4438 [00:00<00:00, 20312.43it/s]
+ 69%|█████████████████████████████▋             | 20/29 [00:04<00:01,  4.83it/s]
+ 47%|████████████████▉                   | 2056/4368 [00:00<00:00, 20558.55it/s]
+Reading images for char ش
+Reading images for char ص
+Reading images for char ض
+Reading images for char ط
+Reading images for char ظ
+Reading images for char ع
+Reading images for char غ
+Reading images for char ف
+ 91%|████████████████████████████████▊   | 4000/4387 [00:00<00:00, 20981.17it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 21460.55it/s]
+ 90%|████████████████████████████████▌   | 4000/4426 [00:00<00:00, 19448.35it/s]
+ 87%|███████████████████████████████▍    | 4000/4588 [00:00<00:00, 20412.25it/s]
+ 88%|███████████████████████████████▌    | 4000/4555 [00:00<00:00, 19845.60it/s]
+ 93%|█████████████████████████████████▎  | 4000/4317 [00:00<00:00, 18931.61it/s]
+ 91%|████████████████████████████████▊   | 4000/4392 [00:00<00:00, 19617.22it/s]
+ 93%|█████████████████████████████████▍  | 4000/4303 [00:00<00:00, 20569.92it/s]
+100%|███████████████████████████████████████████| 29/29 [00:06<00:00,  4.81it/s]
+Classifiers: 0it [00:00, ?it/s]
+Reading images for char ك
+Reading images for char ل
+Reading images for char م
+Reading images for char ن
+Reading images for char ه
+Reading images for char و
+Reading images for char ي
+Classifiers: 0it [00:00, ?it/s]/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py:946: ConvergenceWarning: Liblinear failed to converge, increase the number of iterations.
+  warnings.warn("Liblinear failed to converge, increase "
+Classifiers: 0it [02:00, ?it/s]
+Traceback (most recent call last):
+  File "train.py", line 222, in <module>
+    train()
+  File "train.py", line 162, in train
+    wandb.sklearn.plot_learning_curve(clf, X_train, Y_train)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/wandb/sklearn/plot/shared.py", line 86, in learning_curve
+    learning_curve_chart = calculate.learning_curve(
+  File "/home/mohammad/.local/lib/python3.8/site-packages/wandb/sklearn/calculate/learning_curve.py", line 29, in learning_curve
+    train_sizes, train_scores, test_scores = model_selection.learning_curve(
+  File "/home/mohammad/.local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 1263, in learning_curve
+    out = parallel(delayed(_fit_and_score)(
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 1088, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 597, in __init__
+    self.results = batch()
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 288, in __call__
+    return [func(*args, **kwargs)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 288, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 515, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_classes.py", line 239, in fit
+    self.coef_, self.intercept_, self.n_iter_ = _fit_liblinear(
+  File "/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py", line 936, in _fit_liblinear
+    raw_coef_, n_iter_ = liblinear.train_wrap(
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "train.py", line 222, in <module>
+    train()
+  File "train.py", line 162, in train
+    wandb.sklearn.plot_learning_curve(clf, X_train, Y_train)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/wandb/sklearn/plot/shared.py", line 86, in learning_curve
+    learning_curve_chart = calculate.learning_curve(
+  File "/home/mohammad/.local/lib/python3.8/site-packages/wandb/sklearn/calculate/learning_curve.py", line 29, in learning_curve
+    train_sizes, train_scores, test_scores = model_selection.learning_curve(
+  File "/home/mohammad/.local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 1263, in learning_curve
+    out = parallel(delayed(_fit_and_score)(
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 1088, in __call__
+    while self.dispatch_one_batch(iterator):
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 901, in dispatch_one_batch
+    self._dispatch(tasks)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 819, in _dispatch
+    job = self._backend.apply_async(batch, callback=cb)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 208, in apply_async
+    result = ImmediateResult(func)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/_parallel_backends.py", line 597, in __init__
+    self.results = batch()
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 288, in __call__
+    return [func(*args, **kwargs)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/joblib/parallel.py", line 288, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/sklearn/model_selection/_validation.py", line 515, in _fit_and_score
+    estimator.fit(X_train, y_train, **fit_params)
+  File "/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_classes.py", line 239, in fit
+    self.coef_, self.intercept_, self.n_iter_ = _fit_liblinear(
+  File "/home/mohammad/.local/lib/python3.8/site-packages/sklearn/svm/_base.py", line 936, in _fit_liblinear
+    raw_coef_, n_iter_ = liblinear.train_wrap(
+KeyboardInterrupt
