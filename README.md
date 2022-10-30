@@ -10,7 +10,7 @@ OCR uses a series of machine learning models to turn a picture with text in it i
 
 
 ## Dataset
-you can download the dataset from here [here](https://drive.google.com/drive/folders/1Nbp9ZXLlWV3n8yRMwj2gjs_rE6qGZU01)
+you can download the dataset from [here](https://drive.google.com/drive/folders/1Nbp9ZXLlWV3n8yRMwj2gjs_rE6qGZU01)
 
 ## Quick Start
 This repository is build upon Python v3.9 and Ubuntu 20.04. NVIDIA GPUs are advised to train. See [requirements.txt](https://github.com/ElFarash/AraOCR/blob/main/requirements.txt) for other dependencies. you can install dependencies with the following commands.
